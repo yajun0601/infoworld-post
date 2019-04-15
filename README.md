@@ -32,6 +32,7 @@ for at most 12 hours, meaning that rides may only be started within a
 hour shift, a driver needs to take a break of at least 8 hours.
 The application notifies drivers until when the last ride of their
 shift may be started and when they violate the regulation.
+这个应用从 taxi ride events 获取数据流，然后提醒司机按照监管规则的要求什么时间要停止工作。
 
 * **[AreasTotalPerHour](https://github.com/dataArtisans/infoworld-post/blob/master/src/main/java/com/dataartisans/examples/infoworld/analyticsquery/AreasTotalPerHour.java)**: 
 This streaming analytics application is based on Flink's
